@@ -75,21 +75,24 @@ main > h2 {
     font-size: 36px;
     margin-bottom: 2.5rem;
 }
-.showOff {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5rem;
-}
 .boxes {
     display: flex;
+    padding: 0 7rem;
+    justify-items: center;
+    margin-bottom: 5rem;
 }
 .box {
-    width: 2.5rem;
-    height: 2.5rem;
-    border: 1px solid blue;
+    margin: 0 .75rem;
 }
-.subs {
-    display: flex;
+.square {
+    height: 8rem;
+    border: 3px solid #3882F6;
+    border-radius: 0.5rem;
+}
+.box > p {
+    padding: 0.5rem 0.5rem;
+    justify-self: center;
+    text-align: center;
 }
 .quote {
     background-color: #e5e7eb;
@@ -121,10 +124,18 @@ main > h2 {
     border-radius: 0.25rem;
     padding: 1.5rem 3rem;
 }
+.actionleft > * {
+    color: #e5e7eb;
+}
+.actionleft > p {
+    margin-top: 0.25rem;
+}
+.actionright {
+    align-content: center;
+}
 .actionright > button {
-    align-self: center;
-    justify-self: center;
-    margin-left: 5rem;
+    /* justify-self: center; */
+    padding: 0.75rem 0;
 
     border: 1px solid white;
     border-radius: 0.25rem;
