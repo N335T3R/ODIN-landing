@@ -1,0 +1,137 @@
+*, *::after, *::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 1rem 5rem  5rem 5rem;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+header > * {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 0.25rem;
+    border: none;
+    width: 7rem;
+}
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+li {
+  padding: 0 1rem 0 1rem;  
+}
+
+
+
+/* HEADER */
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+.hero {
+    display: flex;
+}
+.heroleft > * {
+    padding: 0.5rem 1rem;
+    color: #F9FAF8;
+}
+.heroleft > button {
+    margin-left: 1rem;
+}
+.heroright {
+    background-color: #999;
+    opacity: .5;
+    min-width: 50%;
+    align-content: center;
+    color: #e5e7eb;;
+}
+.heroright > p {
+    justify-self: center;
+}
+
+
+
+
+
+/* MAIN */
+main {
+    padding: 2.5rem 0 2.5rem 0;
+}
+main > h2 {
+    justify-self: center;
+    font-size: 36px;
+    margin-bottom: 2.5rem;
+}
+.showOff {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+.boxes {
+    display: flex;
+}
+.box {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid blue;
+}
+.subs {
+    display: flex;
+}
+.quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    padding: 5rem;
+}
+.thor {
+    justify-self: right;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+}
+
+
+
+
+/* FOOTER */
+.container {
+    padding: 2.5rem 5rem;
+}
+.action {
+    display: flex;
+    width: 75%;
+    justify-self: center;
+    background-color: #3882F6;
+    border-radius: 0.25rem;
+    padding: 1.5rem 3rem;
+}
+.actionright > button {
+    align-self: center;
+    justify-self: center;
+
+    border: 1px solid white;
+    border-radius: 0.25rem;
+}
+.copyright {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 2.5rem 10rem;
+    justify-items: center;
+}
