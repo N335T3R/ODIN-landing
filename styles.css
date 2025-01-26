@@ -54,10 +54,9 @@ nav {
 }
 .heroright {
     background-color: #999;
-    opacity: .5;
     min-width: 50%;
     align-content: center;
-    color: #e5e7eb;;
+    color: white;
 }
 .heroright > p {
     justify-self: center;
@@ -125,6 +124,7 @@ main > h2 {
 .actionright > button {
     align-self: center;
     justify-self: center;
+    margin-left: 5rem;
 
     border: 1px solid white;
     border-radius: 0.25rem;
